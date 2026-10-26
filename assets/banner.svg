@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0d1b2a" />
+      <stop offset="100%" stop-color="#1b263b" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <linearGradient id="emerald-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="gold-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow-subtle" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="shadow-card" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+
+    <!-- Architectural Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.12" />
+      <circle cx="40" cy="40" r="1.5" fill="#38bdf8" fill-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse-orb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(25px, -15px); opacity: 0.6; }
+    }
+    @keyframes float-badge {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes flow-data {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes shimmer {
+      0% { stop-opacity: 0.2; }
+      50% { stop-opacity: 0.8; }
+      100% { stop-opacity: 0.2; }
+    }
+    .orb-anim-1 { animation: pulse-orb 8s ease-in-out infinite; transform-origin: 200px 100px; }
+    .orb-anim-2 { animation: pulse-orb 10s ease-in-out infinite alternate; transform-origin: 1000px 300px; }
+    .pill-1 { animation: float-badge 5s ease-in-out infinite; }
+    .pill-2 { animation: float-badge 6s ease-in-out infinite 1s; }
+    .pill-3 { animation: float-badge 5.5s ease-in-out infinite 2s; }
+    .data-line { stroke-dasharray: 12, 12; animation: flow-data 18s linear infinite; }
+  </style>
+
+  <!-- Deep Canvas Base -->
+  <rect width="1200" height="420" fill="url(#bg-grad)" rx="16" />
+
+  <!-- Ambient Dynamic Orbs in Background -->
+  <g class="orb-anim-1">
+    <circle cx="220" cy="120" r="160" fill="#0284c7" opacity="0.25" filter="url(#glow-subtle)" />
+    <circle cx="150" cy="80" r="90" fill="#38bdf8" opacity="0.3" filter="url(#glow-subtle)" />
+  </g>
+  <g class="orb-anim-2">
+    <circle cx="980" cy="280" r="180" fill="#0d9488" opacity="0.22" filter="url(#glow-subtle)" />
+    <circle cx="1040" cy="310" r="100" fill="#34d399" opacity="0.28" filter="url(#glow-subtle)" />
+  </g>
+
+  <!-- Blueprint Grid Overlay -->
+  <rect width="1200" height="420" fill="url(#grid)" rx="16" />
+
+  <!-- Dynamic Circuit / Financial Rail Network Vectors in Background -->
+  <g opacity="0.45">
+    <path class="data-line" d="M -50 80 Q 250 140 500 70 T 1050 110 T 1250 60" fill="none" stroke="#00f2fe" stroke-width="2" />
+    <path class="data-line" d="M -20 340 Q 300 240 600 330 T 1100 280 T 1250 350" fill="none" stroke="#34d399" stroke-width="2" style="animation-direction: reverse;" />
+    
+    <!-- Ledger Nodes -->
+    <circle cx="300" cy="115" r="5" fill="#00f2fe" filter="url(#glow-subtle)" />
+    <circle cx="750" cy="90" r="4.5" fill="#38bdf8" />
+    <circle cx="480" cy="305" r="5" fill="#10b981" filter="url(#glow-subtle)" />
+    <circle cx="920" cy="295" r="4" fill="#6ee7b7" />
+  </g>
+
+  <!-- Border Accent Outline -->
+  <rect x="2" y="2" width="1196" height="416" rx="15" fill="none" stroke="url(#cyan-glow)" stroke-width="1.5" stroke-opacity="0.3" />
+
+  <!-- FOREGROUND CONTENT: Guaranteed high contrast, non-overlapping -->
+
+  <!-- Top Category Tag -->
+  <g transform="translate(60, 52)">
+    <rect width="210" height="32" rx="16" fill="#0f2b48" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="18" cy="16" r="5" fill="#00f2fe" />
+    <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#bae6fd" letter-spacing="1.2">FINTECH &amp; BANKING OPS</text>
+  </g>
+
+  <!-- Main Headline / Title -->
+  <g transform="translate(60, 142)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+      Awesome Financial Services Operations
+    </text>
+  </g>
+
+  <!-- High-Value Subtitle / Mission Statement -->
+  <g transform="translate(60, 185)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#94a3b8">
+      Curated Enterprise Core Banking, Double-Entry Ledgers, Lending Engines &amp; FinServ Ops Stacks
+    </text>
+  </g>
+
+  <!-- Architectural Feature Cards / Dynamic Floating Pills (Foreground Safe) -->
+  <g transform="translate(60, 240)">
+    
+    <!-- Card 1: Core Banking -->
+    <g class="pill-1" transform="translate(0, 0)">
+      <rect width="250" height="92" rx="12" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.35" filter="url(#shadow-card)" backdrop-filter="blur(10px)" />
+      <circle cx="34" cy="46" r="18" fill="#0369a1" fill-opacity="0.5" />
+      <text x="34" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" text-anchor="middle" fill="#38bdf8">🏦</text>
+      <text x="64" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Core Banking</text>
+      <text x="64" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Engines, Accounts &amp; Clearing</text>
+      <text x="64" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#38bdf8">Fineract • FIS • Fiserv</text>
+    </g>
+
+    <!-- Card 2: Programmable Ledgers -->
+    <g class="pill-2" transform="translate(270, 0)">
+      <rect width="250" height="92" rx="12" fill="url(#card-grad)" stroke="#34d399" stroke-width="1" stroke-opacity="0.35" filter="url(#shadow-card)" />
+      <circle cx="34" cy="46" r="18" fill="#065f46" fill-opacity="0.5" />
+      <text x="34" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" text-anchor="middle" fill="#34d399">⚡</text>
+      <text x="64" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Double-Entry Ledgers</text>
+      <text x="64" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Immutable Multi-Currency State</text>
+      <text x="64" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#34d399">Formance • Blnk • Django</text>
+    </g>
+
+    <!-- Card 3: Enterprise Automation -->
+    <g class="pill-3" transform="translate(540, 0)">
+      <rect width="250" height="92" rx="12" fill="url(#card-grad)" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.35" filter="url(#shadow-card)" />
+      <circle cx="34" cy="46" r="18" fill="#5b21b6" fill-opacity="0.5" />
+      <text x="34" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" text-anchor="middle" fill="#a78bfa">⚙️</text>
+      <text x="64" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Workflow Orchestration</text>
+      <text x="64" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Disputes, Loans &amp; Case Mgmt</text>
+      <text x="64" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#c084fc">ServiceNow • Pega • nCino</text>
+    </g>
+
+    <!-- Card 4: Compliance & Payment Rails -->
+    <g class="pill-1" transform="translate(810, 0)">
+      <rect width="270" height="92" rx="12" fill="url(#card-grad)" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.35" filter="url(#shadow-card)" />
+      <circle cx="34" cy="46" r="18" fill="#78350f" fill-opacity="0.5" />
+      <text x="34" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" text-anchor="middle" fill="#f59e0b">🛡️</text>
+      <text x="64" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Rails &amp; Compliance</text>
+      <text x="64" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">ACH, NACHA, FINOS &amp; KYC</text>
+      <text x="64" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#fbbf24">Moov ACH • Legend • Alkami</text>
+    </g>
+
+  </g>
+
+  <!-- Clean Bottom Terminal Bar -->
+  <g transform="translate(60, 375)">
+    <circle cx="6" cy="6" r="3" fill="#10b981" />
+    <text x="18" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#64748b">Verified Enterprise Stack Data &amp; Open Standards • Continuously Updated</text>
+  </g>
+
+</svg>

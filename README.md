@@ -1,35 +1,52 @@
-# Awesome Financial Services Operations (FinServ Ops) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated list of enterprise platforms, SaaS solutions, open-source core banking engines, programmable ledgers, and operational toolkits modernizing financial services operations, banking back-offices, risk management, and regulatory compliance.
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-Financial services operations (FinServ Ops) encompass the backend infrastructure, workflow engines, transaction management pipelines, dispute automation, compliance screening, and core processing software that power retail banks, credit unions, commercial lenders, fintechs, and asset managers worldwide.
+<br/><br/>
 
----
+<a href="#readme">
+  <img src="assets/banner.svg" alt="Awesome Financial Services Operations Banner" width="100%" />
+</a>
 
-## Table of Contents
+# 🏦 Awesome Financial Services Operations (FinServ Ops) 🚀
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [Enterprise SaaS & Commercial Platforms](#enterprise-saas--commercial-platforms)
-- [Open-Source Solutions](#open-source-solutions)
-- [Key Operational Capabilities](#key-operational-capabilities)
-- [Contributing](#contributing)
-- [License](#license)
+> ⚡ **A curated directory of enterprise platforms, SaaS operating systems, open-source core banking engines, programmable ledgers, and operational toolkits modernizing financial services back-offices, dispute automation, and regulatory compliance.** 🛡️
 
----
+</div>
 
-## Sector Overview & Market Dynamics
-
-The global financial services operations and core banking software market is valued at approximately **$14.5 billion to $19.3 billion** in 2025–2026, with the broader banking systems software and enterprise operations segment exceeding **$42 billion to $45 billion** and projected to grow at a Compound Annual Growth Rate (CAGR) of 10%–14% through 2032. 
-
-The sector is **moderately concentrated among legacy oligopolies** (FIS, Fiserv, Jack Henry) across traditional core banking processing, but exhibits **increasing fragmentation and high composability** in middle-and-back-office workflow layers—where cloud-native specialists (ServiceNow FSO, nCino, Alkami, Pega) compete alongside modern headless ledgers and open-source infrastructure for enterprise modernization.
+Financial services operations (FinServ Ops) encompass the backend infrastructure, workflow engines, transaction management pipelines, dispute automation, compliance screening, and core processing software that power retail banks, credit unions, commercial lenders, fintechs, and asset managers worldwide. 🌐
 
 ---
 
-## Enterprise SaaS & Commercial Platforms
+## 📑 Table of Contents
 
-Enterprise SaaS platforms supporting core banking, commercial lending workflows, dispute orchestration, and digital customer servicing.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 Enterprise SaaS & Commercial Platforms](#-enterprise-saas--commercial-platforms)
+- [🔓 Open-Source Solutions](#-open-source-solutions)
+- [🧩 Key Operational Capabilities](#-key-operational-capabilities)
+- [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [📜 License](#-license)
 
-*Table sorted in descending order by enterprise scale (Market Capitalization / Annual Revenue).*
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global financial services operations and core banking software market is valued at approximately **$14.5 billion to $19.3 billion** in 2025–2026, with the broader banking systems software and enterprise operations segment exceeding **$42 billion to $45 billion** and projected to grow at a Compound Annual Growth Rate (CAGR) of 10%–14% through 2032. 📈
+
+The sector is **moderately concentrated among legacy oligopolies** (FIS, Fiserv, Jack Henry) across traditional core banking processing, but exhibits **increasing fragmentation and high composability** in middle-and-back-office workflow layers—where cloud-native specialists (ServiceNow FSO, nCino, Alkami, Pega) compete alongside modern headless ledgers and open-source infrastructure for enterprise modernization. 🔄
+
+---
+
+## 💼 Enterprise SaaS & Commercial Platforms
+
+Enterprise SaaS platforms supporting core banking, commercial lending workflows, dispute orchestration, and digital customer servicing. 🏢
+
+*Table sorted in descending order by enterprise scale (Market Capitalization / Annual Revenue).* 📉
 
 | Platform | Enterprise Scale (Revenue / Valuation) | Pricing | Free Tier / Trial Limit | Key Focus Areas |
 | :--- | :--- | :--- | :--- | :--- |
@@ -42,11 +59,11 @@ Enterprise SaaS platforms supporting core banking, commercial lending workflows,
 
 ---
 
-## Open-Source Solutions
+## 🔓 Open-Source Solutions
 
-Production-ready open-source core banking platforms, double-entry financial ledgers, ACH clearing libraries, and financial data modeling standards.
+Production-ready open-source core banking platforms, double-entry financial ledgers, ACH clearing libraries, and financial data modeling standards. 💻
 
-*Table sorted in descending order by GitHub Star count.*
+*Table sorted in descending order by GitHub Star count.* ⭐
 
 | Solution | Stars | Primary Language / Stack | License | Key Features |
 | :--- | :--- | :--- | :--- | :--- |
@@ -61,30 +78,46 @@ Production-ready open-source core banking platforms, double-entry financial ledg
 
 ---
 
-## Key Operational Capabilities
+## 🧩 Key Operational Capabilities
 
-Modern Financial Services Operations platforms manage mission-critical banking domains:
+Modern Financial Services Operations platforms manage mission-critical banking domains: ⚙️
 
-- **Core Accounting & Ledgers:** Immutability, atomic double-entry balance sheets, multi-currency asset tracking, and strict audit logging.
-- **Client Onboarding & KYC/AML:** Identity verification, sanction watchlist screening, PEP checks, and automated compliance risk scoring.
-- **Lending & Loan Servicing:** Commercial, mortgage, and consumer loan origination, credit committee approvals, disbursement, and interest accrual.
-- **Payment Operations & Clearing:** Real-time gross settlement (RTGS), ACH NACHA parsing, FedNow / SEPA integration, and payment exception routing.
-- **Case & Dispute Management:** Card transaction chargeback workflows (Visa/Mastercard cycles), fraudulent transaction claims, and SLA management.
-- **Regulatory Reporting:** Automated generation of data feeds for Basel III/IV, Dodd-Frank, FINRA, CFPB, and central bank filings.
-
----
-
-## Contributing
-
-Contributions are welcome! If you'd like to suggest an enterprise platform, modern fintech infrastructure tool, or open-source banking project:
-
-1. Fork this repository.
-2. Create a new branch: `git checkout -b feature/new-fintech-resource`.
-3. Add your resource following the established tabular format (include specific pricing and free tier/trial data for SaaS; include star badge and stargazer links for open source).
-4. Submit a pull request with details on why the project belongs in this curated list.
+- **Core Accounting & Ledgers:** 📒 Immutability, atomic double-entry balance sheets, multi-currency asset tracking, and strict audit logging.
+- **Client Onboarding & KYC/AML:** 🔍 Identity verification, sanction watchlist screening, PEP checks, and automated compliance risk scoring.
+- **Lending & Loan Servicing:** 💳 Commercial, mortgage, and consumer loan origination, credit committee approvals, disbursement, and interest accrual.
+- **Payment Operations & Clearing:** 💸 Real-time gross settlement (RTGS), ACH NACHA parsing, FedNow / SEPA integration, and payment exception routing.
+- **Case & Dispute Management:** ⚖️ Card transaction chargeback workflows (Visa/Mastercard cycles), fraudulent transaction claims, and SLA management.
+- **Regulatory Reporting:** 📑 Automated generation of data feeds for Basel III/IV, Dodd-Frank, FINRA, CFPB, and central bank filings.
 
 ---
 
-## License
+## 🤝 Contributing
+
+Contributions are welcome! 🙌 If you'd like to suggest an enterprise platform, modern fintech infrastructure tool, or open-source banking project:
+
+1. 🍴 Fork this repository.
+2. 🌿 Create a new branch: `git checkout -b feature/new-fintech-resource`.
+3. 📝 Add your resource following the established tabular format (include specific pricing and free tier/trial data for SaaS; include star badge and stargazer links for open source).
+4. 🚀 Submit a pull request with details on why the project belongs in this curated list.
+
+---
+
+## 💖 Support
+
+Thank you for exploring **Awesome Financial Services Operations**! 🙏 If you find this curated resource helpful:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and contribute** your favorite financial infrastructure tools.
+- 📢 **Share it** with colleagues, fintech engineers, and operations professionals.
+- ☕ **Support continuous maintenance:** Consider sponsoring or buying a coffee via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)! ☕
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Financial-Services-Operations&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Financial-Services-Operations&type=date&legend=top-left)
+
+---
+
+## 📜 License
 
 This curated collection is licensed under the [MIT License](LICENSE).
