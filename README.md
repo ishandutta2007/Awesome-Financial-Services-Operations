@@ -63,9 +63,9 @@ Enterprise SaaS platforms supporting core banking, commercial lending workflows,
 
 Production-ready open-source core banking platforms, double-entry financial ledgers, ACH clearing libraries, and financial data modeling standards. 💻
 
-*Table sorted in descending order by GitHub Star count.* ⭐
+*Table sorted in descending order by GitHub Stars_Count.* ⭐
 
-| Solution | Stars | Primary Language / Stack | License | Key Features |
+| Solution | GitHub_Stars | Primary Language / Stack | License | Key Features |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Apache Fineract](https://github.com/apache/fineract)** | [![Stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers) | Java / Spring Boot | Apache-2.0 | Complete open-source core banking platform providing deposit/loan portfolio management, interest calculations, general ledger, and REST APIs for digital financial institutions. |
 | **[FINOS Legend](https://github.com/finos/legend)** | [![Stars](https://img.shields.io/github/stars/finos/legend?style=social&color=white)](https://github.com/finos/legend/stargazers) | Java / TypeScript | Apache-2.0 | Open-source data modeling platform originated at Goldman Sachs and governed by FINOS for financial services data pipelines, governance, and regulatory reporting. |
@@ -97,7 +97,7 @@ Contributions are welcome! 🙌 If you'd like to suggest an enterprise platform,
 
 1. 🍴 Fork this repository.
 2. 🌿 Create a new branch: `git checkout -b feature/new-fintech-resource`.
-3. 📝 Add your resource following the established tabular format (include specific pricing and free tier/trial data for SaaS; include star badge and stargazer links for open source).
+3. 📝 Add your resource following the established tabular format (include specific pricing and free tier/trial data for SaaS; include Stars_Badge and stargazer links for open source).
 4. 🚀 Submit a pull request with details on why the project belongs in this curated list.
 
 ---
